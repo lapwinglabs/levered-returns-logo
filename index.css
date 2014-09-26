@@ -1,0 +1,21 @@
+
+/**
+ * levered-returns logo.
+ */
+
+.logo[data-logo="levered-returns"] {
+  width: 7.766990291262136em;
+}
+
+.logo[data-logo="levered-returns"] > * {
+  background-image: url(images/logo.svg);
+  margin: -.3em 0 -.3em 0;
+}
+
+.logo[data-logo="levered-returns"][data-color="black"] > * {
+  background-image: url(images/logo-black.svg);
+}
+
+.logo[data-logo="levered-returns"][data-color="white"] > * {
+  background-image: url(images/logo-white.svg);
+}
